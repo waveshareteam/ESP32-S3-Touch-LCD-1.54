@@ -59,8 +59,6 @@ static void qmi8658_test_task(void *arg) {
                          data.accelX, data.accelY, data.accelZ);
                 ESP_LOGI(TAG, "Gyro:  X=%.4f rad/s, Y=%.4f rad/s, Z=%.4f rad/s",
                          data.gyroX, data.gyroY, data.gyroZ);
-                ESP_LOGI(TAG, "Temp:  %.2f °C, Timestamp: %lu",
-                         data.temperature, data.timestamp);
                 ESP_LOGI(TAG, "----------------------------------------");
             } else {
                 ESP_LOGE(TAG, "Failed to read sensor data (error: %d)", ret);
