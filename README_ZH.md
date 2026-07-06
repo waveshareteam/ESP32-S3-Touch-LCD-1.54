@@ -16,7 +16,7 @@ ESP32-S3-Touch-LCD-1.54 是一款小巧、高性能的开发板，采用 ESP32-S
 ```text
 .
 ├── examples/        # ESP-IDF 和 Arduino 示例程序
-├── Firmware/        # 预编译的出厂及示例固件（.bin）
+├── Firmware/        # 预编译的出厂及示例固件（.bin）及 SD 卡资源
 └── assets/          # 文档使用的图片
 ```
 

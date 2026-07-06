@@ -16,7 +16,7 @@ This repository provides sample programs and factory firmware for the ESP32-S3-T
 ```text
 .
 ├── examples/        # Sample programs for ESP-IDF and Arduino
-├── Firmware/        # Pre-built factory and example firmware (.bin)
+├── Firmware/        # Pre-built factory and example firmware (.bin) and SD card resources
 └── assets/          # Images used in documentation
 ```
 
